@@ -1,3 +1,13 @@
+/* Typos
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+@font-face {
+    font-family: 'Foo';
+    src: url('../fonts/foo.woff2') format('woff2'),
+         url('../fonts/foo.woff') format('woff');
+    font-weight: normal;
+    font-style: normal; }
+
+
 /* Varibles
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 :root {
