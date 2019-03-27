@@ -101,6 +101,7 @@ button,
 input[type="submit"],
 input[type="reset"],
 input[type="button"] {
+  transition: all .3s ease;
   display: inline-block;
   height: 38px;
   padding: 0 30px;
@@ -128,7 +129,6 @@ button:focus,
 input[type="submit"]:focus,
 input[type="reset"]:focus,
 input[type="button"]:focus {
-  transition: all .3s ease;
   color: var(--btn-txt-hover-color);
   border-color: var(--btn-border-hover-color);
   outline: 0; }
@@ -150,7 +150,6 @@ button.button-primary:focus,
 input[type="submit"].button-primary:focus,
 input[type="reset"].button-primary:focus,
 input[type="button"].button-primary:focus {
-  transition: all .3s ease;
   color: var(--btn-primary-txt-hover-color);
   background-color: var(--btn-primary-bg-hover-color);
   border-color: var(--btn-primary-border-hover-color); }
