@@ -43,6 +43,7 @@
 
 --basic-color: #09383e;
 --basic-bg-color: #f1f1f1;
+--basic-transition: all .3s ease;
 }
 
 
@@ -88,9 +89,9 @@ p {
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
+  transition: var(--basic-transition);
   color: var(--link-color); }
 a:hover {
-  transition: all .3s ease;
   color: var(--link-hover-color); }
 
 
@@ -101,7 +102,7 @@ button,
 input[type="submit"],
 input[type="reset"],
 input[type="button"] {
-  transition: all .3s ease;
+  transition: var(--basic-transition);
   display: inline-block;
   height: 38px;
   padding: 0 30px;
