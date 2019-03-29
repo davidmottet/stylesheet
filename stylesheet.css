@@ -57,7 +57,8 @@ body {
   font-weight: 400;
   font-family: var(--font-main), "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: var(--txt-color); }
-
+div {
+  box-sizing: border-box; }
 
 /* Typography
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
