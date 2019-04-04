@@ -1,0 +1,24 @@
+{
+  "name": "stylesheet",
+  "version": "1.0.0",
+  "description": "Basic stylesheet",
+  "devDependencies": {
+    "stylelint": "^9.10.1",
+    "stylelint-config-recommended": "^2.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidmottet/stylesheet.git"
+  },
+  "keywords": [
+    "css",
+    "basic",
+    "stylesheet"
+  ],
+  "author": "David MOTTET",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davidmottet/stylesheet/issues"
+  },
+  "homepage": "https://github.com/davidmottet/stylesheet#readme"
+}
