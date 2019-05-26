@@ -37,26 +37,26 @@
 
 		<!-- Form -->
 		<div>
-			<form>
+			<form method="POST" action="./">
 				<div>
 					<label for="mail">Your email</label>
-					<input type="email" placeholder="foo@bar.com">
+					<input type="email" name="email" placeholder="foo@bar.com">
 				</div>
 				<div>
 					<label for="select">Select option</label>
-					<select>
-						<option value="Option 1">Lorem</option>
-						<option value="Option 2">Ipsum</option>
-						<option value="Option 3">Dolor</option>
+					<select name="select">
+						<option value="lorem">Lorem</option>
+						<option value="ipsum">Ipsum</option>
+						<option value="dolor">Dolor</option>
 					</select>
 				</div>
 				<div>
 					<label for="textarea">Message</label>
-					<textarea placeholder="Lorem ipsum dolor sit ..."></textarea>
+					<textarea name="textarea" placeholder="Lorem ipsum dolor sit ..."></textarea>
 				</div>
 				<div>
 					<label>
-						<input type="checkbox">
+						<input name="checkbox" type="checkbox">
 						<span>Checkbox</span>
 					</label>
 				</div>
